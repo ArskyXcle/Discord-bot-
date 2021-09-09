@@ -7,3 +7,7 @@ bot = commands.Bot(command_prefix="x")
 @bot.event
 async def on_connect():
     print("ArskyW")
+
+token = ("token goes here")
+
+bot.run("token goes here")
