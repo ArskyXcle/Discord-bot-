@@ -2,3 +2,6 @@
 @bot.command()
 async def kick(ctx, member: discord.Member, *, reason=None):
     await member.kick(reason=reason)
+
+DO NOT COPY ONLY COPY FROM LINE 2 TO 4. 
+Example for kick: xkick @user
